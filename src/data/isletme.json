@@ -1,0 +1,23 @@
+{
+  "ad": "Prof. Dr. Hakan Özhan",
+  "unvan": "Kardiyoloji Uzmanı",
+  "kurum": "Sakarya Tıp Merkezi",
+  "aciklama": "Kalp sağlığınız için güncel tıbbi yaklaşımlar, bilimsel altyapı ve yılların getirdiği klinik tecrübe ile yanınızdayız.",
+  "ozgecmis": "Prof. Dr. Hakan Özhan, kardiyoloji alanında çeyrek asırlık klinik ve akademik tecrübeye sahiptir. Uzmanlık alanları arasında kalp yetersizliği, hipertansiyon ve girişimsel kardiyoloji (anjiyo, stent) bulunmaktadır. Ulusal ve uluslararası birçok makalesi bulunan Dr. Özhan, hastalarına güncel bilimsel veriler ışığında teşhis ve tedavi hizmeti sunmaktadır.",
+  "hizmetler": [
+    { "baslik": "Klinik Kardiyoloji", "detay": "Hipertansiyon, kalp yetersizliği, kolesterol ve ritim bozukluklarının tanı ve takibi." },
+    { "baslik": "Girişimsel Kardiyoloji", "detay": "Koroner anjiyografi, balon ve stent işlemleri ile damar tıkanıklıklarının tedavisi." },
+    { "baslik": "Ekokardiyografi (EKO)", "detay": "Kalp kası ve kapakçıklarının gelişmiş ultrasonografik yöntemlerle detaylı incelenmesi." },
+    { "baslik": "Check-Up ve Risk Analizi", "detay": "Kalp krizi risk değerlendirmesi ve koruyucu kardiyoloji hizmetleri." }
+  ],
+  "sosyal": [
+    { "platform": "LinkedIn", "url": "https://www.linkedin.com/in/prof-dr-hakan-%C3%B6zhan-72943525/" },
+    { "platform": "Instagram", "url": "https://instagram.com/prof.dr.hakanozhan" }
+  ],
+  "iletisim": {
+    "adres": "Sakarya Tıp Merkezi, Yenidoğan, Milli Egemenlik Cd. NO : 89, 54100 Adapazarı/Sakarya",
+    "haritaLink":"https://www.google.com/maps/place/%C3%96zel+Sakarya+T%C4%B1p+Merkezi/@40.7704379,30.3910986,17z/data=!3m1!4b1!4m6!3m5!1s0x14ccb327eaaa3b91:0xc6931694ed52ff9!8m2!3d40.7704379!4d30.3910986!16s%2Fg%2F11h_4_lqvr?entry=ttu&g_ep=EgoyMDI2MDkxNS4wIKXMDSoASAFQAw%3D%3D",
+    "eposta": "drhakanozhan@gmail.com",
+    "telefon": "0264 279 04 55"
+  }
+}

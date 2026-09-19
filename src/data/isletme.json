@@ -3,12 +3,14 @@
   "unvan": "Kardiyoloji Uzmanı",
   "kurum": "Sakarya Tıp Merkezi",
   "aciklama": "Kalp sağlığınız için güncel tıbbi yaklaşımlar, bilimsel altyapı ve yılların getirdiği klinik tecrübe ile yanınızdayız.",
-  "ozgecmis": "Prof. Dr. Hakan Özhan, kardiyoloji alanında çeyrek asırlık klinik ve akademik tecrübeye sahiptir. Uzmanlık alanları arasında kalp yetersizliği, hipertansiyon ve girişimsel kardiyoloji (anjiyo, stent) bulunmaktadır. Ulusal ve uluslararası birçok makalesi bulunan Dr. Özhan, hastalarına güncel bilimsel veriler ışığında teşhis ve tedavi hizmeti sunmaktadır.",
+  "ozgecmis": "Prof. Dr. Hakan Özhan, kardiyoloji alanında çeyrek asırlık klinik ve akademik tecrübeye sahiptir. Uzmanlık alanları arasında kalp yetersizliği, hipertansiyon ve girişimsel kardiyoloji bulunmaktadır. Ulusal ve uluslararası birçok makalesi bulunan Hakan Özhan, hastalarına güncel bilimsel veriler ışığında teşhis ve tedavi hizmeti sunmaktadır.",
   "hizmetler": [
-    { "baslik": "Klinik Kardiyoloji", "detay": "Hipertansiyon, kalp yetersizliği, kolesterol ve ritim bozukluklarının tanı ve takibi." },
-    { "baslik": "Girişimsel Kardiyoloji", "detay": "Koroner anjiyografi, balon ve stent işlemleri ile damar tıkanıklıklarının tedavisi." },
-    { "baslik": "Ekokardiyografi (EKO)", "detay": "Kalp kası ve kapakçıklarının gelişmiş ultrasonografik yöntemlerle detaylı incelenmesi." },
-    { "baslik": "Check-Up ve Risk Analizi", "detay": "Kalp krizi risk değerlendirmesi ve koruyucu kardiyoloji hizmetleri." }
+    { "baslik": "Koroner Arter Hastalığı", "detay": "Göğüs ağrısı, damar tıkanıklığı ve koroner arter hastalıklarının tanı ve tedavisinde güncel yaklaşımlar" },
+    { "baslik": "Kalp Yetmezliği", "detay": "Kalp yetmezliğinin evrelendirilmesi, ilaç tedavisi ve uzun dönemli takip süreçlerinin yönetimi" },
+    { "baslik": "Hipertansiyon", "detay": "Dirençli ve ikincil hipertansiyon dahil olmak üzere tansiyon hastalığının kapsamlı yönetimi" },
+    { "baslik": "Aritmi (Ritim Bozuklukları)", "detay": "Çarpıntı, ritim bozuklukları ve kalp atışı düzensizliklerinin tanı ve takibi" },
+    { "baslik": "Ekokardiyografi", "detay": "Kalbin yapısını ve fonksiyonlarını detaylı değerlendiren ileri düzey görüntüleme teknikleri" },
+    { "baslik": "Kalp Kapak Hastalıkları", "detay": "Kalp kapaklarındaki darlık ve yetmezliklerin tanısı, takibi ve tedavi planlaması" }
   ],
   "sosyal": [
     { "platform": "LinkedIn", "url": "https://www.linkedin.com/in/prof-dr-hakan-%C3%B6zhan-72943525/" },

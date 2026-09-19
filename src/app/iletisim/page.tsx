@@ -71,7 +71,7 @@ export default function IletisimSayfasi() {
                     {/* Google Haritalar İframe */}
                     <div className="w-full h-80 rounded-2xl overflow-hidden shadow-sm border border-slate-100 bg-white">
                         <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3021.617451830356!2d30.391098600000003!3d40.7704379!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14ccb327eaaa3b91%3A0xc6931694ed52ff9!2s%C3%96zel%20Sakarya%20T%C4%B1p%20Merkezi!5e0!3m2!1str!2str!4v1789821798666!5m2!1str!2str"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3021.617451830356!2d30.391098600000003!3d40.7704379!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14ccb321a58244c7%3A0x69025aa364335fcb!2sProf%20Dr.%20Hakan%20%C3%96zhan!5e0!3m2!1str!2str!4v1789825794600!5m2!1str!2str"
                             width="100%"
                             height="100%"
                             style={{ border: 0 }}

@@ -4,61 +4,145 @@
   "kurum": "Sakarya Tıp Merkezi",
   "aciklama": "Kalp sağlığınız için güncel tıbbi yaklaşımlar, bilimsel altyapı ve yılların getirdiği klinik tecrübe ile yanınızdayız.",
   "ozgecmis": "Prof. Dr. Hakan Özhan, kardiyoloji alanında çeyrek asırlık klinik ve akademik tecrübeye sahiptir. Uzmanlık alanları arasında kalp yetersizliği, hipertansiyon ve girişimsel kardiyoloji bulunmaktadır. Ulusal ve uluslararası birçok makalesi bulunan Hakan Özhan, hastalarına güncel bilimsel veriler ışığında teşhis ve tedavi hizmeti sunmaktadır.",
-  
-
-  
   "sosyal": [
-    { "platform": "LinkedIn", "url": "https://www.linkedin.com/in/prof-dr-hakan-%C3%B6zhan-72943525/" },
-    { "platform": "Instagram", "url": "https://instagram.com/prof.dr.hakanozhan" }
+    {
+      "platform": "LinkedIn",
+      "url": "https://www.linkedin.com/in/prof-dr-hakan-%C3%B6zhan-72943525/"
+    },
+    {
+      "platform": "Instagram",
+      "url": "https://instagram.com/prof.dr.hakanozhan"
+    }
   ],
   "iletisim": {
     "adres": "Sakarya Tıp Merkezi, Yenidoğan, Milli Egemenlik Cd. NO : 89, 54100 Adapazarı/Sakarya",
-    "haritaLink":"https://www.google.com/maps/place/%C3%96zel+Sakarya+T%C4%B1p+Merkezi/@40.7704379,30.3910986,17z/data=!3m1!4b1!4m6!3m5!1s0x14ccb327eaaa3b91:0xc6931694ed52ff9!8m2!3d40.7704379!4d30.3910986!16s%2Fg%2F11h_4_lqvr?entry=ttu&g_ep=EgoyMDI2MDkxNS4wIKXMDSoASAFQAw%3D%3D",
+    "haritaLink": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3021.617451830356!2d30.391098600000003!3d40.7704379!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14ccb321a58244c7%3A0x69025aa364335fcb!2sProf%20Dr.%20Hakan%20%C3%96zhan!5e0!3m2!1str!2str!4v1789825794600!5m2!1str!2str",
     "eposta": "drhakanozhan@gmail.com",
     "telefon": "0264 279 04 55"
   },
+  "egitim": [
+    {
+      "yil": "1991 - 1997",
+      "baslik": "Tıp Doktoru",
+      "kurum": "Hacettepe Üniversitesi Tıp Fakültesi",
+      "aciklama": "Tıp eğitimini başarıyla tamamladı."
+    },
+    {
+      "yil": "1998 - 2002",
+      "baslik": "Kardiyoloji İhtisası",
+      "kurum": "İstanbul Üniversitesi Kardiyoloji Enstitüsü",
+      "aciklama": "Kardiyoloji ihtisasını tamamlayarak uzman unvanı aldı."
+    },
+    {
+      "yil": "2005",
+      "baslik": "Doçentlik",
+      "kurum": "Kardiyoloji Anabilim Dalı",
+      "aciklama": "Üniversitelerarası Kurul tarafından doçent unvanı verildi."
+    },
+    {
+      "yil": "2011",
+      "baslik": "Profesörlük",
+      "kurum": "Kardiyoloji Anabilim Dalı",
+      "aciklama": "Akademik çalışmaları sonucunda profesörlüğe yükseltildi."
+    }
+  ],
+  "isDeneyimi": [
+    {
+      "yil": "2026 - Günümüz",
+      "baslik": "Kardiyoloji Uzmanı",
+      "kurum": "Sakarya Tıp Merkezi"
+    },
+    {
+      "yil": "2021 - 2026",
+      "baslik": "Kardiyoloji Uzmanı",
+      "kurum": "Özel Medar Hastanesi"
+    },
+    {
+      "yil": "2020 - 2021",
+      "baslik": "Kardiyoloji Uzmanı",
+      "kurum": "Özel Adatıp Hastanesi"
+    },
+    {
+      "yil": "2018 - 2021",
+      "baslik": "Kardiyoloji Uzmanı",
+      "kurum": "Özel Atakent Hastanesi"
+    },
+    {
+      "yil": "2003 - 2016",
+      "baslik": "Kardiyoloji Profesörü",
+      "kurum": "Düzce Üniversitesi"
+    }
+  ],
+  "yayinlar": [
+    {
+      "baslik": "Kardiyolojide Büyük Çalışmalar",
+      "altBaslik": "Editör: Prof. Dr. Hakan Özhan, Bion Matbaacılık, 2012",
+      "aciklama": "Bu kitap; kardiyoloji alanında dönüm noktası niteliğindeki önemli klinik araştırmaları ve çalışmaları derleyen, hekimler ve asistanlar için başvuru niteliğinde bir eserdir.",
+      "resim": "/kitap.jpeg"
+    },
+    {
+      "yil": "2010",
+      "baslik": "Romatoid artritli hastalarda trombosit indeksleri: Ortalama trombosit hacmi hastalık aktivitesini yansıtır.",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3MGpmzsAAAAJ&citation_for_view=3MGpmzsAAAAJ:SeFeTyx0c_EC"
+    },
+    {
+      "yil": "2010",
+      "baslik": "Koroner anjiyografi geçiren hastalarda kontrast maddeye bağlı nefropatinin önlenmesinde kısa süreli yüksek doz atorvastatinin etkinliği",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3MGpmzsAAAAJ&citation_for_view=3MGpmzsAAAAJ:u-x6o8ySG0sC"
+    },
+    {
+      "yil": "2007",
+      "baslik": "Türk kadınlarında sigara içmenin metabolik sendrom ve diyabet üzerinde \"koruyucu\" bir etkisi olduğuna dair prospektif epidemiyolojik kanıtlar - genel sağlık açısından herhangi bir fayda olmaksızın.",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3MGpmzsAAAAJ&citation_for_view=3MGpmzsAAAAJ:u5HHmVD_uO8C"
+    },
+    {
+      "yil": "2005",
+      "baslik": "P dalgası dağılımı ile diyastolik disfonksiyon arasındaki ilişki",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3MGpmzsAAAAJ&citation_for_view=3MGpmzsAAAAJ:HoB7MX3m0LUC"
+    }
+  ],
   "hizmetler": [
-  {
-    "slug": "koroner-arter-hastaligi",
-    "baslik": "Koroner Arter Hastalığı",
-    "detay": "Göğüs ağrısı, damar tıkanıklığı ve koroner arter hastalıklarının tanı ve tedavisinde güncel yaklaşımlar",
-    "icerik": "Koroner arter hastalığı, kalbi besleyen damarların (koroner arterler) daralması veya tıkanması sonucu oluşur. Kliniğimizde EKG, Efor testi ve anjiyografi gibi modern yöntemlerle tanısı konulmakta ve kişiye özel tedavi planlanmaktadır.",
-    "resim": "/images/koroner-arter.jpg"
-  },
-  {
-    "slug": "kalp-yetmezligi",
-    "baslik": "Kalp Yetmezliği",
-    "detay": "Kalp yetmezliğinin evrelendirilmesi, ilaç tedavisi ve uzun dönemli takip süreçlerinin yönetimi",
-    "icerik": "Kalp yetmezliği, kalbin vücudun ihtiyacı olan kanı yeterince pompalayamaması durumudur. Nefes darlığı, halsizlik ve bacaklarda şişlik gibi belirtilerle kendini gösterir. Erken tanı ve uygun ilaç tedavisi ile yaşam kalitesi artırılır.",
-    "resim": "/images/kalp-yetmezligi.jpg"
-  },
-  {
-    "slug": "hipertansiyon",
-    "baslik": "Hipertansiyon",
-    "detay": "Dirençli ve ikincil hipertansiyon dahil olmak üzere tansiyon hastalığının kapsamlı yönetimi",
-    "icerik": "Yüksek tansiyon, sessiz katil olarak bilinir. Erken teşhis ve düzenli ilaç kullanımı ile kalp krizi, inme ve böbrek yetmezliği gibi riskler minimuma indirilebilir. Hastalarımızın tansiyon takipleri düzenli olarak yapılmaktadır.",
-    "resim": "/images/hipertansiyon.jpg"
-  },
-  {
-    "slug": "aritmi",
-    "baslik": "Aritmi (Ritim Bozuklukları)",
-    "detay": "Çarpıntı, ritim bozuklukları ve kalp atışı düzensizliklerinin tanı ve takibi",
-    "icerik": "Kalp atışlarının düzensiz, çok hızlı veya çok yavaş olması durumudur. Holter EKG ve ileri ritim analiz yöntemleriyle aritminin türü tespit edilip, ilaçla veya elektrofizyolojik yöntemlerle tedavi süreçleri planlanır.",
-    "resim": "/images/aritmi.jpg"
-  },
-  {
-    "slug": "ekokardiyografi",
-    "baslik": "Ekokardiyografi",
-    "detay": "Kalbin yapısını ve fonksiyonlarını detaylı değerlendiren ileri düzey görüntüleme teknikleri",
-    "icerik": "Ses dalgaları kullanılarak kalbin kas yapısı, kapakçıkları ve kan akışı detaylı olarak incelenir. Radyasyon içermeyen bu güvenilir yöntemle kalp hastalıklarının teşhisi hızlı ve ağrısız bir şekilde gerçekleştirilir.",
-    "resim": "/images/ekokardiyografi.jpg"
-  },
-  {
-    "slug": "kalp-kapak-hastaliklari",
-    "baslik": "Kalp Kapak Hastalıkları",
-    "detay": "Kalp kapaklarındaki darlık ve yetmezliklerin tanısı, takibi ve tedavi planlaması",
-    "icerik": "Kalp kapakçıklarında meydana gelen kireçlenme, daralma veya kaçak gibi sorunlar kalbin iş yükünü artırır. Kliniğimizde bu hastalıkların derecesi tespit edilerek tıbbi takip veya cerrahi yönlendirme süreçleri titizlikle yürütülür.",
-    "resim": "/images/kalp-kapak-hastaliklari.jpg"
-  }
-]
+    {
+      "slug": "koroner-arter-hastaligi",
+      "baslik": "Koroner Arter Hastalığı",
+      "detay": "Göğüs ağrısı, damar tıkanıklığı ve koroner arter hastalıklarının tanı ve tedavisinde güncel yaklaşımlar",
+      "icerik": "Koroner arter hastalığı, kalbi besleyen damarların (koroner arterler) daralması veya tıkanması sonucu oluşur. Kliniğimizde EKG, Efor testi ve anjiyografi gibi modern yöntemlerle tanısı konulmakta ve kişiye özel tedavi planlanmaktadır.",
+      "resim": "/images/koroner-arter.jpg"
+    },
+    {
+      "slug": "kalp-yetmezligi",
+      "baslik": "Kalp Yetmezliği",
+      "detay": "Kalp yetmezliğinin evrelendirilmesi, ilaç tedavisi ve uzun dönemli takip süreçlerinin yönetimi",
+      "icerik": "Kalp yetmezliği, kalbin vücudun ihtiyacı olan kanı yeterince pompalayamaması durumudur. Nefes darlığı, halsizlik ve bacaklarda şişlik gibi belirtilerle kendini gösterir. Erken tanı ve uygun ilaç tedavisi ile yaşam kalitesi artırılır.",
+      "resim": "/images/kalp-yetmezligi.jpg"
+    },
+    {
+      "slug": "hipertansiyon",
+      "baslik": "Hipertansiyon",
+      "detay": "Dirençli ve ikincil hipertansiyon dahil olmak üzere tansiyon hastalığının kapsamlı yönetimi",
+      "icerik": "Yüksek tansiyon, sessiz katil olarak bilinir. Erken teşhis ve düzenli ilaç kullanımı ile kalp krizi, inme ve böbrek yetmezliği gibi riskler minimuma indirilebilir. Hastalarımızın tansiyon takipleri düzenli olarak yapılmaktadır.",
+      "resim": "/images/hipertansiyon.jpg"
+    },
+    {
+      "slug": "aritmi",
+      "baslik": "Aritmi (Ritim Bozuklukları)",
+      "detay": "Çarpıntı, ritim bozuklukları ve kalp atışı düzensizliklerinin tanı ve takibi",
+      "icerik": "Kalp atışlarının düzensiz, çok hızlı veya çok yavaş olması durumudur. Holter EKG ve ileri ritim analiz yöntemleriyle aritminin türü tespit edilip, ilaçla veya elektrofizyolojik yöntemlerle tedavi süreçleri planlanır.",
+      "resim": "/images/aritmi.jpg"
+    },
+    {
+      "slug": "ekokardiyografi",
+      "baslik": "Ekokardiyografi",
+      "detay": "Kalbin yapısını ve fonksiyonlarını detaylı değerlendiren ileri düzey görüntüleme teknikleri",
+      "icerik": "Ses dalgaları kullanılarak kalbin kas yapısı, kapakçıkları ve kan akışı detaylı olarak incelenir. Radyasyon içermeyen bu güvenilir yöntemle kalp hastalıklarının teşhisi hızlı ve ağrısız bir şekilde gerçekleştirilir.",
+      "resim": "/images/ekokardiyografi.jpg"
+    },
+    {
+      "slug": "kalp-kapak-hastaliklari",
+      "baslik": "Kalp Kapak Hastalıkları",
+      "detay": "Kalp kapaklarındaki darlık ve yetmezliklerin tanısı, takibi ve tedavi planlaması",
+      "icerik": "Kalp kapakçıklarında meydana gelen kireçlenme, daralma veya kaçak gibi sorunlar kalbin iş yükünü artırır. Kliniğimizde bu hastalıkların derecesi tespit edilerek tıbbi takip veya cerrahi yönlendirme süreçleri titizlikle yürütülür.",
+      "resim": "/images/kalp-kapak-hastaliklari.jpg"
+    }
+  ]
 }

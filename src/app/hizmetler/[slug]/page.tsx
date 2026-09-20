@@ -52,7 +52,7 @@ export default async function HizmetDetaySayfasi({ params }: any) {
 
             <div className="mt-12 pt-8 border-t border-slate-100">
               <Link
-                href="/iletisim"
+                href="/randevu"
                 className="inline-flex justify-center items-center px-8 py-4 bg-[#164371] text-white rounded-xl font-bold hover:bg-[#1f60a2] transition-colors w-full md:w-auto shadow-md"
               >
                 Randevu Alın

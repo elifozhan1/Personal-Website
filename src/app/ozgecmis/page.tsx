@@ -193,6 +193,89 @@ export default function OzgecmisSayfasi() {
                         ))}
                     </div>
                 </section>
+
+                {/* --- 4. BÖLÜM: Mesleki Üyelikler --- */}
+                <section className="mt-32">
+                    <div className="mb-8">
+                        <h3 className="text-3xl font-bold text-black flex items-center gap-3">
+                            {/* Topluluk/Üyelik İkonu */}
+                            <svg className="w-8 h-8 text-[#1f60a2]" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                                <circle cx="9" cy="7" r="4"></circle>
+                                <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                                <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                            </svg>
+                            Mesleki Üyelikler
+                        </h3>
+                    </div>
+
+                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
+                        {/* Üyelik 1 */}
+                        <div className="bg-white border border-[#e9eff6] shadow-sm hover:shadow-md transition-shadow rounded-2xl p-6 flex items-center gap-4">
+                            <div className="w-12 h-12 rounded-full bg-[#e9eff6] text-[#1f60a2] flex items-center justify-center shrink-0">
+                                <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+                                    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                                </svg>
+                            </div>
+                            <h4 className="font-bold text-[#164371] text-lg">Türk Tabipleri Birliği</h4>
+                        </div>
+
+                        {/* Üyelik 2 */}
+                        <div className="bg-white border border-[#e9eff6] shadow-sm hover:shadow-md transition-shadow rounded-2xl p-6 flex items-center gap-4">
+                            <div className="w-12 h-12 rounded-full bg-[#e9eff6] text-[#1f60a2] flex items-center justify-center shrink-0">
+                                <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+                                    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                                </svg>
+                            </div>
+                            <h4 className="font-bold text-[#164371] text-lg">European Society of Cardiology (ESC)</h4>
+                        </div>
+                    </div>
+                </section>
+
+                {/* --- 5. BÖLÜM: Lisanslar ve Sertifikalar --- */}
+                <section className="mt-32">
+                    <div className="mb-10">
+                        <h3 className="text-3xl font-bold text-black flex items-center gap-3">
+                            {/* Sertifika / Lisans İkonu */}
+                            <svg className="w-8 h-8 text-[#1f60a2]" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                                <circle cx="12" cy="8" r="6"></circle>
+                                <path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"></path>
+                            </svg>
+                            Lisanslar ve Sertifikalar
+                        </h3>
+                    </div>
+
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+
+                        {/* Sertifika 1 */}
+                        <div className="bg-white border border-[#e9eff6] shadow-sm hover:shadow-md transition-shadow rounded-2xl p-6 md:p-8 relative overflow-hidden">
+                            {/* Sol tarafta estetik mavi bir çizgi */}
+                            <div className="absolute top-0 left-0 w-1.5 h-full bg-[#1f60a2]"></div>
+
+                            <h4 className="text-xl font-bold text-black mb-1">Cardiologist Diploma</h4>
+                            <p className="text-slate-500 font-medium">European Society of Cardiology</p>
+                        </div>
+
+                        {/* Sertifika 2 */}
+                        <div className="bg-white border border-[#e9eff6] shadow-sm hover:shadow-md transition-shadow rounded-2xl p-6 md:p-8 relative overflow-hidden">
+                            {/* Sol tarafta estetik mavi bir çizgi */}
+                            <div className="absolute top-0 left-0 w-1.5 h-full bg-[#1f60a2]"></div>
+
+                            <h4 className="text-xl font-bold text-black mb-1">ECFMG</h4>
+                            <p className="text-slate-500 font-medium mb-4">USMLE (United States Medical Licensing Examination)</p>
+
+                            {/* Yeterlilik Kimliği için şık bir rozet (badge) tasarımı */}
+                            <span className="inline-flex items-center gap-2 bg-[#e9eff6] text-[#164371] font-semibold text-xs px-3 py-1.5 rounded-full">
+                                <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+                                    <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+                                    <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+                                </svg>
+                                Yeterlilik Kimliği: 058171109
+                            </span>
+                        </div>
+
+                    </div>
+                </section>
             </div>
         </main>
     );

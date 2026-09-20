@@ -104,7 +104,7 @@ export default function Home() {
                 "Koroner anjiyografi ve girişimsel işlemlerde uzman",
                 "100'ün üzerinde ulusal ve uluslararası akademik yayın",
                 "Kardiyoloji alanında profesör unvanı",
-                "Kişiye özel yaklaşım"
+                "Hastalık yoktur, hasta vardır düsturu ile hasta odaklı yaklaşım"
               ].map((madde, index) => (
                 <li key={index} className="flex items-start gap-3 text-slate-700 font-medium">
                   {/* Onay (Tik) İkonu */}

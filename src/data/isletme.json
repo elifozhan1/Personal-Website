@@ -4,14 +4,9 @@
   "kurum": "Sakarya Tıp Merkezi",
   "aciklama": "Kalp sağlığınız için güncel tıbbi yaklaşımlar, bilimsel altyapı ve yılların getirdiği klinik tecrübe ile yanınızdayız.",
   "ozgecmis": "Prof. Dr. Hakan Özhan, kardiyoloji alanında çeyrek asırlık klinik ve akademik tecrübeye sahiptir. Uzmanlık alanları arasında kalp yetersizliği, hipertansiyon ve girişimsel kardiyoloji bulunmaktadır. Ulusal ve uluslararası birçok makalesi bulunan Hakan Özhan, hastalarına güncel bilimsel veriler ışığında teşhis ve tedavi hizmeti sunmaktadır.",
-  "hizmetler": [
-    { "baslik": "Koroner Arter Hastalığı", "detay": "Göğüs ağrısı, damar tıkanıklığı ve koroner arter hastalıklarının tanı ve tedavisinde güncel yaklaşımlar" },
-    { "baslik": "Kalp Yetmezliği", "detay": "Kalp yetmezliğinin evrelendirilmesi, ilaç tedavisi ve uzun dönemli takip süreçlerinin yönetimi" },
-    { "baslik": "Hipertansiyon", "detay": "Dirençli ve ikincil hipertansiyon dahil olmak üzere tansiyon hastalığının kapsamlı yönetimi" },
-    { "baslik": "Aritmi (Ritim Bozuklukları)", "detay": "Çarpıntı, ritim bozuklukları ve kalp atışı düzensizliklerinin tanı ve takibi" },
-    { "baslik": "Ekokardiyografi", "detay": "Kalbin yapısını ve fonksiyonlarını detaylı değerlendiren ileri düzey görüntüleme teknikleri" },
-    { "baslik": "Kalp Kapak Hastalıkları", "detay": "Kalp kapaklarındaki darlık ve yetmezliklerin tanısı, takibi ve tedavi planlaması" }
-  ],
+  
+
+  
   "sosyal": [
     { "platform": "LinkedIn", "url": "https://www.linkedin.com/in/prof-dr-hakan-%C3%B6zhan-72943525/" },
     { "platform": "Instagram", "url": "https://instagram.com/prof.dr.hakanozhan" }
@@ -21,5 +16,49 @@
     "haritaLink":"https://www.google.com/maps/place/%C3%96zel+Sakarya+T%C4%B1p+Merkezi/@40.7704379,30.3910986,17z/data=!3m1!4b1!4m6!3m5!1s0x14ccb327eaaa3b91:0xc6931694ed52ff9!8m2!3d40.7704379!4d30.3910986!16s%2Fg%2F11h_4_lqvr?entry=ttu&g_ep=EgoyMDI2MDkxNS4wIKXMDSoASAFQAw%3D%3D",
     "eposta": "drhakanozhan@gmail.com",
     "telefon": "0264 279 04 55"
+  },
+  "hizmetler": [
+  {
+    "slug": "koroner-arter-hastaligi",
+    "baslik": "Koroner Arter Hastalığı",
+    "detay": "Göğüs ağrısı, damar tıkanıklığı ve koroner arter hastalıklarının tanı ve tedavisinde güncel yaklaşımlar",
+    "icerik": "Koroner arter hastalığı, kalbi besleyen damarların (koroner arterler) daralması veya tıkanması sonucu oluşur. Kliniğimizde EKG, Efor testi ve anjiyografi gibi modern yöntemlerle tanısı konulmakta ve kişiye özel tedavi planlanmaktadır.",
+    "resim": "/images/koroner-arter.jpg"
+  },
+  {
+    "slug": "kalp-yetmezligi",
+    "baslik": "Kalp Yetmezliği",
+    "detay": "Kalp yetmezliğinin evrelendirilmesi, ilaç tedavisi ve uzun dönemli takip süreçlerinin yönetimi",
+    "icerik": "Kalp yetmezliği, kalbin vücudun ihtiyacı olan kanı yeterince pompalayamaması durumudur. Nefes darlığı, halsizlik ve bacaklarda şişlik gibi belirtilerle kendini gösterir. Erken tanı ve uygun ilaç tedavisi ile yaşam kalitesi artırılır.",
+    "resim": "/images/kalp-yetmezligi.jpg"
+  },
+  {
+    "slug": "hipertansiyon",
+    "baslik": "Hipertansiyon",
+    "detay": "Dirençli ve ikincil hipertansiyon dahil olmak üzere tansiyon hastalığının kapsamlı yönetimi",
+    "icerik": "Yüksek tansiyon, sessiz katil olarak bilinir. Erken teşhis ve düzenli ilaç kullanımı ile kalp krizi, inme ve böbrek yetmezliği gibi riskler minimuma indirilebilir. Hastalarımızın tansiyon takipleri düzenli olarak yapılmaktadır.",
+    "resim": "/images/hipertansiyon.jpg"
+  },
+  {
+    "slug": "aritmi",
+    "baslik": "Aritmi (Ritim Bozuklukları)",
+    "detay": "Çarpıntı, ritim bozuklukları ve kalp atışı düzensizliklerinin tanı ve takibi",
+    "icerik": "Kalp atışlarının düzensiz, çok hızlı veya çok yavaş olması durumudur. Holter EKG ve ileri ritim analiz yöntemleriyle aritminin türü tespit edilip, ilaçla veya elektrofizyolojik yöntemlerle tedavi süreçleri planlanır.",
+    "resim": "/images/aritmi.jpg"
+  },
+  {
+    "slug": "ekokardiyografi",
+    "baslik": "Ekokardiyografi",
+    "detay": "Kalbin yapısını ve fonksiyonlarını detaylı değerlendiren ileri düzey görüntüleme teknikleri",
+    "icerik": "Ses dalgaları kullanılarak kalbin kas yapısı, kapakçıkları ve kan akışı detaylı olarak incelenir. Radyasyon içermeyen bu güvenilir yöntemle kalp hastalıklarının teşhisi hızlı ve ağrısız bir şekilde gerçekleştirilir.",
+    "resim": "/images/ekokardiyografi.jpg"
+  },
+  {
+    "slug": "kalp-kapak-hastaliklari",
+    "baslik": "Kalp Kapak Hastalıkları",
+    "detay": "Kalp kapaklarındaki darlık ve yetmezliklerin tanısı, takibi ve tedavi planlaması",
+    "icerik": "Kalp kapakçıklarında meydana gelen kireçlenme, daralma veya kaçak gibi sorunlar kalbin iş yükünü artırır. Kliniğimizde bu hastalıkların derecesi tespit edilerek tıbbi takip veya cerrahi yönlendirme süreçleri titizlikle yürütülür.",
+    "resim": "/images/kalp-kapak-hastaliklari.jpg"
   }
+]
 }

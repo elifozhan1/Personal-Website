@@ -169,7 +169,7 @@ export default function Home() {
               // İleride sayfaları oluşturduğumuzda href="/hizmetler/ilgili-hizmet" yapacağız
               <Link
                 key={index}
-                href="#"
+                href={`/hizmetler/${hizmet.slug}`}
                 className="block p-8 bg-[#e9eff6] rounded-2xl shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all duration-300 border border-[#1f60a2]/10 group"
               >
                 <h4 className="text-xl font-bold text-[#164371] mb-3 group-hover:text-[#1f60a2] transition-colors">

@@ -101,7 +101,7 @@ export default function IletisimSayfasi() {
 
                         <form action="https://api.web3forms.com/submit" method="POST" className="space-y-6">
                             <input type="hidden" name="access_key" value="9dc622ac-c6ae-4002-84a0-6d55d042487b" />
-                            <input type="hidden" name="redirect" value="http://localhost:3000/basarili" />
+                            <input type="hidden" name="redirect" value="https://profdrhakanozhan.com/basarili" />
 
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                                 <div>

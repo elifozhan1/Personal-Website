@@ -20,8 +20,8 @@ export default function RootLayout({
     "@context": "https://schema.org",
     "@type": "Physician", 
     "name": "Prof. Dr. Hakan Özhan",
-    "url": "https://www.sitenizinadi.com", // Siteniz yayına girince burayı güncellersiniz
-    "image": "https://www.sitenizinadi.com/profil.jpg",
+    "url": "https://profdrhakanozhan.com",
+    "image": "https://profdrhakanozhan.com/profil.jpg",
     "jobTitle": "Kardiyoloji Uzmanı",
     "worksFor": {
       "@type": "MedicalOrganization",

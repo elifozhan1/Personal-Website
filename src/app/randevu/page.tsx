@@ -1,16 +1,15 @@
 import Link from 'next/link';
+import veri from '../../data/isletme.json';
 
 export default function RandevuSayfasi() {
   return (
-    <main className="min-h-screen bg-[#faf8f4] py-16 px-4">
+    <main className="min-h-screen bg-[#faf8f4] pt-32 pb-24 px-6">
+      {/* pt-32 ile yukarıdan ekstra boşluk bırakarak mobilde menünün altında ezilmesini önledik */}
       <div className="max-w-5xl mx-auto">
         
         {/* Üst Başlık Kısmı */}
         <div className="text-center mb-16">
-          <span className="text-sm font-bold tracking-wider text-[#1f60a2] uppercase bg-[#e9eff6] px-4 py-2 rounded-full">
-            İletişim
-          </span>
-          <h1 className="text-4xl md:text-5xl font-extrabold text-[#164371] mt-6 mb-4">
+          <h1 className="text-4xl md:text-5xl font-extrabold text-[#164371] mb-4">
             Randevu Alın
           </h1>
           <p className="text-lg text-slate-600 max-w-2xl mx-auto">
@@ -49,7 +48,8 @@ export default function RandevuSayfasi() {
             
             {/* Telefon Butonu */}
             <a 
-              href="tel:0264 279 04 55" // Buraya gerçek telefon numarasını yazın (örn: tel:+902120000000)
+              // JSON'dan gelen telefon numarasının boşluklarını kaldırıp "tel:" linkine çeviriyoruz
+              href={`tel:${veri.iletisim.telefon.replace(/\s/g, '')}`} 
               className="group flex items-center p-6 md:p-8 bg-white rounded-3xl shadow-sm border border-[#1f60a2]/10 hover:shadow-lg hover:-translate-y-1 transition-all duration-300"
             >
               <div className="w-16 h-16 bg-[#e9eff6] rounded-2xl flex items-center justify-center text-[#1f60a2] mr-6 group-hover:scale-110 transition-transform">
@@ -59,7 +59,8 @@ export default function RandevuSayfasi() {
               </div>
               <div>
                 <h3 className="text-xl font-bold text-[#164371] mb-1">Telefon ile Randevu</h3>
-                <p className="text-slate-600 font-medium text-lg">0264 279 04 55</p>
+                {/* Numara doğrudan JSON'dan yazdırılıyor */}
+                <p className="text-slate-600 font-medium text-lg">{veri.iletisim.telefon}</p>
               </div>
             </a>
 

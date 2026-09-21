@@ -197,7 +197,7 @@ export default function OzgecmisSayfasi() {
                 {/* --- 4. BÖLÜM: Mesleki Üyelikler --- */}
                 <section className="mt-32">
                     <div className="mb-8">
-                        <h3 className="text-3xl font-bold text-black flex items-center gap-3">
+                        <h3 className="text-3xl font-bold text-black flex items-center gap-3 mb-3">
                             {/* Topluluk/Üyelik İkonu */}
                             <svg className="w-8 h-8 text-[#1f60a2]" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                                 <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
@@ -207,6 +207,9 @@ export default function OzgecmisSayfasi() {
                             </svg>
                             Mesleki Üyelikler
                         </h3>
+                         <p className="text-slate-500 font-medium ml-11 max-w-3xl leading-relaxed">
+                            Üyesi olduğu dernek ve kuruluşlar
+                        </p>
                     </div>
 
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
@@ -235,7 +238,7 @@ export default function OzgecmisSayfasi() {
                 {/* --- 5. BÖLÜM: Lisanslar ve Sertifikalar --- */}
                 <section className="mt-32">
                     <div className="mb-10">
-                        <h3 className="text-3xl font-bold text-black flex items-center gap-3">
+                        <h3 className="text-3xl font-bold text-black flex items-center gap-3 mb-3">
                             {/* Sertifika / Lisans İkonu */}
                             <svg className="w-8 h-8 text-[#1f60a2]" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                                 <circle cx="12" cy="8" r="6"></circle>
@@ -243,6 +246,9 @@ export default function OzgecmisSayfasi() {
                             </svg>
                             Lisanslar ve Sertifikalar
                         </h3>
+                         <p className="text-slate-500 font-medium ml-11 max-w-3xl leading-relaxed">
+                            Avrupa Kardiyoloji Derneği standartlarında kardiyoloji uzmanlığını ve Amerika Birleşik Devletleri normlarında uluslararası hekimlik yetkinliğini tescilleyen belgeler
+                        </p>
                     </div>
 
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -266,10 +272,6 @@ export default function OzgecmisSayfasi() {
 
                             {/* Yeterlilik Kimliği için şık bir rozet (badge) tasarımı */}
                             <span className="inline-flex items-center gap-2 bg-[#e9eff6] text-[#164371] font-semibold text-xs px-3 py-1.5 rounded-full">
-                                <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
-                                    <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
-                                    <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
-                                </svg>
                                 Yeterlilik Kimliği: 058171109
                             </span>
                         </div>

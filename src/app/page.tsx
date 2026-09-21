@@ -1,27 +1,10 @@
 'use client';
 
-import { useState, useEffect } from 'react';
 import Image from "next/image";
 import Link from 'next/link';
 import veri from '../data/isletme.json';
 
 export default function Home() {
-
-  const [isScrolled, setIsScrolled] = useState(false);
-
-  useEffect(() => {
-    const handleScroll = () => {
-      // 50 pikselden fazla aşağı kaydırıldıysa true yap
-      if (window.scrollY > 50) {
-        setIsScrolled(true);
-      } else {
-        setIsScrolled(false);
-      }
-    };
-
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
 
   return (
     <main className="font-sans text-slate-800 bg-[#faf8f4]">
@@ -84,7 +67,7 @@ export default function Home() {
 
       </div>
 
-      {/* --- YENİ ÖZGEÇMİŞ VE PROFİL BÖLÜMÜ --- */}
+      {/* --- ÖZGEÇMİŞ VE PROFİL BÖLÜMÜ --- */}
       <section id="ozgecmis" className="py-24 px-6 max-w-7xl mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
 
@@ -93,12 +76,12 @@ export default function Home() {
             <h3 className="text-3xl md:text-4xl font-bold text-[#164371] mb-6 leading-tight">
               Kalp Sağlığınız İçin Güvenilir ve Deneyimli Bakım
             </h3>
-            
+
             {/* text-justify sınıfı ile metin sağa ve sola tam yaslandı */}
             <p className="text-lg text-slate-700 leading-relaxed mb-8 text-justify">
               {veri.ozgecmis}
             </p>
-            
+
             <ul className="space-y-4">
               {[
                 "Koroner anjiyografi ve girişimsel işlemlerde uzman",
@@ -116,10 +99,10 @@ export default function Home() {
               ))}
             </ul>
 
-            {/* YENİ: Özgeçmişi Görüntüle Butonu */}
+            {/* Özgeçmişi Görüntüle Butonu */}
             <div className="mt-10">
-              <Link 
-                href="/ozgecmis" 
+              <Link
+                href="/ozgecmis"
                 className="inline-flex items-center gap-2 px-8 py-3.5 bg-[#164371] text-white font-semibold rounded-full hover:bg-[#1f60a2] transition-colors shadow-lg group"
               >
                 Özgeçmişi Görüntüle
@@ -134,27 +117,27 @@ export default function Home() {
 
           {/* Sağ Taraf: Fotoğraf */}
           <div className="relative w-[90%] sm:w-4/5 md:w-full max-w-md mx-auto lg:ml-auto lg:mr-0 mt-12 lg:mt-0 z-10">
-            
+
             {/* Estetik Arka Plan Kutusu (#e9eff6) - Hizalamayı bozmayacak şekilde ayarlandı */}
             <div className="absolute top-5 -right-5 w-full h-full bg-[#e9eff6] rounded-3xl -z-10"></div>
-            
+
             {/* Fotoğraf Alanı (Biraz daha büyük ve tam hizalı) */}
             <div className="relative aspect-[4/5] rounded-2xl overflow-hidden shadow-2xl border-8 border-white bg-white">
-              <Image 
-                src="/doktor_resim.png" 
-                alt="Prof. Dr. Hakan Özhan" 
+              <Image
+                src="/doktor_resim.png"
+                alt="Prof. Dr. Hakan Özhan"
                 fill
                 className="object-cover"
               />
             </div>
-            
+
           </div>
 
         </div>
       </section>
 
       {/* --- HİZMETLER BÖLÜMÜ --- */}
-      <section className="w-full #faf8f4  py-24 border-t border-slate-100">
+      <section className="w-full bg-[#faf8f4] py-24 border-t border-slate-100">
         <div className="max-w-7xl mx-auto px-6">
 
           <div className="text-center mb-16">
@@ -196,32 +179,31 @@ export default function Home() {
       </section>
 
       {/* --- RANDEVU BÖLÜMÜ --- */}
-      {/* Arka plan tamamen beyaz */}
-      <section className="w-full #faf8f4  pb-24">
-        
+      <section className="w-full bg-[#faf8f4] pb-24">
+
         {/* Üstteki 6'lı hizmet kutularıyla aynı sağ/sol hizasını sağlayan kapsayıcı */}
         <div className="max-w-7xl mx-auto px-6">
-          
+
           {/* Lacivert Kutucuk */}
           <div className="bg-[#164371] rounded-3xl p-10 md:p-16 text-center shadow-xl">
-            
+
             <h3 className="text-3xl md:text-4xl font-bold text-white mb-4">
               Kalp Sağlığınız İçin İlk Adımı Atın
             </h3>
-            
+
             <p className="text-lg text-[#e9eff6] max-w-2xl mx-auto mb-10">
               Randevu talebiniz ve sorularınız için bize ulaşın. Size en uygun zamanda yanınızdayız.
             </p>
-            
-            <Link 
-              href="/randevu" 
+
+            <Link
+              href="/randevu"
               className="inline-block px-10 py-4 bg-white text-[#164371] font-bold text-lg rounded-full hover:bg-slate-100 transition-colors shadow-lg"
             >
               Randevu Al
             </Link>
-            
+
           </div>
-          
+
         </div>
       </section>
     </main>

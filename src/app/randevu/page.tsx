@@ -3,8 +3,7 @@ import veri from '../../data/isletme.json';
 
 export default function RandevuSayfasi() {
   return (
-    <main className="min-h-screen bg-[#faf8f4] pt-32 pb-24 px-6">
-      {/* pt-32 ile yukarıdan ekstra boşluk bırakarak mobilde menünün altında ezilmesini önledik */}
+   <main className="min-h-screen bg-[#faf8f4] pt-40 md:pt-36 pb-24 px-6">
       <div className="max-w-5xl mx-auto">
         
         {/* Üst Başlık Kısmı */}

@@ -3,7 +3,7 @@ import veri from '../../data/isletme.json';
 
 export default function OzgecmisSayfasi() {
     return (
-        <main className="min-h-screen font-sans text-slate-800 bg-[#faf8f4] pt-32 pb-24">
+         <main className="min-h-screen bg-[#faf8f4] pt-40 md:pt-36 pb-24 px-6">
             <div className="max-w-6xl mx-auto px-6">
 
                 {/* --- 1. ÜST BÖLÜM: Profil Kartı --- */}
